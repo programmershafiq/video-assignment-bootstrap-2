@@ -1,0 +1,112 @@
+body,h1,h2,h3,h4,h5,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* Header Section */
+
+
+.shafiq-header.navbar-light .navbar-brand {
+    color: blue;
+    font-size: 25px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    font-size: 20px;
+    margin-left: 89px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.9);
+    font-size: 20px;
+}
+
+.dropdown-item {
+    font-size: 20px;
+    color: rgba(0,0,0,.9);
+}
+
+
+/* Slider Section */
+.slider-section{
+    background: url(img/banner.jpeg) no-repeat center center;
+    background-size: cover;
+    padding: 180px 0;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.slider-caption h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.slider-caption h4{
+    margin-bottom: 30px;
+}
+
+.counter{
+    padding: 100px 0;
+}
+
+p.h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+/* about section */
+
+.about{
+    background-color: #f7f9ff;
+    padding: 150px 0;
+}
+
+
+.about-item h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 44px;
+    margin-top: 100px;
+}
+
+/* feature section */
+
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+
+.left-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.left-sec img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -92px;
+}
+.right-text{
+    width: 60%;
+}
+.right-text {
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
